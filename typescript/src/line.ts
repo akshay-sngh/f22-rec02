@@ -1,6 +1,6 @@
 import { newPolarPoint, PolarPoint } from "./points/polarPoint";
 
-function newLine (point1: PolarPoint, point2: PolarPoint) {
+function newLine (point1: Point, point2: Point) {
     return {    
         draw() {
             const x1: number = point1.computeX();
